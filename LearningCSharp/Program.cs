@@ -6,7 +6,10 @@ namespace LearningCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ClassUsingAttributes.PrintAuthorAttributesInfo(typeof(ClassUsingAttributes));
+
+
+            Console.ReadLine();
         }
     }
 }
