@@ -14,7 +14,7 @@ namespace LearningCSharp
     /// By default, an attribute applies to the element that follows it. But you can also explicitly identify, 
     /// for example, whether an attribute is applied to a method, or to its parameter, or to its return value.
     /// </summary>
-    [Serializable]
+    [Serializable] // Indicates that a class can be serialized. This class cannot be inherited.
     [Author("Bikram Sinha", version = 1.1)]
     [Author("Bikram Sinha", version = 1.2)]
     class ClassUsingAttributes
