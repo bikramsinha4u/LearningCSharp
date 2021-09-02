@@ -22,6 +22,7 @@ namespace AsynchronousProgramming
         private static async Task GetCsvDataLineByLine(string csvFilePath, FileData fileData)
         {
             CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+            // cancellationTokenSource.CancelAfter(2000); 
             var cancellationToken = cancellationTokenSource.Token;
             
             await fileData.GetCsvDataLineByLineAsync(csvFilePath, cancellationTokenSource, cancellationToken);
