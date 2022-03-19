@@ -8,6 +8,7 @@ namespace LearningCSharp
         {
             ClassUsingAttributes.PrintAuthorAttributesInfo(typeof(ClassUsingAttributes));
 
+            MyClass.DelegateExamples();
 
             Console.ReadLine();
         }
