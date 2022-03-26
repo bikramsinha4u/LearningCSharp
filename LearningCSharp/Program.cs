@@ -6,9 +6,11 @@ namespace LearningCSharp
     {
         static void Main(string[] args)
         {
-            ClassUsingAttributes.PrintAuthorAttributesInfo(typeof(ClassUsingAttributes));
+            //ClassUsingAttributes.PrintAuthorAttributesInfo(typeof(ClassUsingAttributes));
 
-            MyClass.DelegateExamples();
+            //MyClass.DelegateExamples();
+
+            YieldReturn.Consumer();
 
             Console.ReadLine();
         }

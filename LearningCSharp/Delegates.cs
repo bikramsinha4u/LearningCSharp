@@ -48,7 +48,7 @@ namespace LearningCSharp
             multicastDelegate(2, 3);
 
             // Func
-            Func<string, string, string> funcDelgate = new Func<string, string, string>(myClassObj.GetUserName);
+            Func<string, string, string/*return type*/> funcDelgate = new Func<string, string, string>(myClassObj.GetUserName);
             string funcResult = funcDelgate.Invoke("Bikram", "Sinha");
             Console.WriteLine(@"Func Delegate Output: " + funcResult);
 

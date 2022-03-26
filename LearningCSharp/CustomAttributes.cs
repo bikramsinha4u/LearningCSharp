@@ -16,7 +16,7 @@ namespace LearningCSharp
     /// </summary>
     [Serializable] // Indicates that a class can be serialized. This class cannot be inherited.
     [Author("Bikram Sinha", version = 1.1)]
-    [Author("Bikram Sinha", version = 1.2)]
+    [Author("Bikram Sinha", version = 1.2)] // use multiple time becoz 'AllowMultiple = true'
     class ClassUsingAttributes
     {
         public static void PrintAuthorAttributesInfo(System.Type t)
