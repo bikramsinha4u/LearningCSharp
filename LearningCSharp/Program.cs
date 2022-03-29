@@ -10,7 +10,9 @@ namespace LearningCSharp
 
             //MyClass.DelegateExamples();
 
-            YieldReturn.Consumer();
+            //YieldReturn.Consumer();
+
+            CustomDictionary.CutomeDictionayResult();
 
             Console.ReadLine();
         }
