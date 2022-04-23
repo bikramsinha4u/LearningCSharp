@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LearningCSharp
 {
@@ -61,6 +62,26 @@ namespace LearningCSharp
             Predicate<string> predicateDelegate = new Predicate<string>(myClassObj.IsTrue);
             bool predicateDelegateResult = predicateDelegate("true");
             Console.WriteLine(@"Predicate Delegate Output: " + predicateDelegateResult);
+        }
+    }
+
+
+    class Exercise
+    {
+        delegate void Printer();
+        public void GuessOutput()
+        {
+            List<Printer> printers = new List<Printer>();
+            int i = 0;
+            for (; i < 10; i++)
+            {
+                printers.Add(delegate { Console.WriteLine(i); });
+            }
+
+            foreach (var printer in printers)
+            {
+                printer();
+            }
         }
     }
 }
