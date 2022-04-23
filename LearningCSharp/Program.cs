@@ -12,7 +12,9 @@ namespace LearningCSharp
 
             //YieldReturn.Consumer();
 
-            CustomDictionary.CutomeDictionayResult();
+            //CustomDictionary.CutomeDictionayResult();
+
+            var drivedClassObj = new DerivedClass(5);
 
             Console.ReadLine();
         }
