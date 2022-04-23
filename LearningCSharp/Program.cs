@@ -14,7 +14,13 @@ namespace LearningCSharp
 
             //CustomDictionary.CutomeDictionayResult();
 
-            var drivedClassObj = new DerivedClass(5);
+            //var drivedClassObj = new DerivedClass(5);
+
+
+            StaticNonStaticCtor.x = 7;
+            StaticNonStaticCtor.Print();
+            var obj = new StaticNonStaticCtor();
+            StaticNonStaticCtor.Print();
 
             Console.ReadLine();
         }
