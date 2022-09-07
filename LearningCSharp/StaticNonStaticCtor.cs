@@ -28,4 +28,36 @@ namespace LearningCSharp
             Console.WriteLine("Value of x = {0}", x);
         }
     }
+
+    public static class MyClass2//: MyInterface // cannot implement interfaces
+    {
+        static MyClass2()
+        {
+
+        }
+    }
+
+    public interface MyInterface
+    {
+        void MyFunc();
+    }
+
+    public sealed class MySealedClass
+    {
+        public MySealedClass()
+        {
+
+        }
+    }
+
+    public abstract class MyAbstractClass
+    {
+        protected MyAbstractClass() // making public doesnt make any sense
+        {
+
+        }
+
+        public abstract void MyFunc();
+    }
+
 }

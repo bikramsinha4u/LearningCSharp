@@ -14,13 +14,27 @@ namespace LearningCSharp
 
             //CustomDictionary.CutomeDictionayResult();
 
-            //var drivedClassObj = new DerivedClass(5);
+            //var drivedClassObj = new DerivedClass(5, 6);
 
+            //StaticNonStaticCtor.x = 7;
+            //StaticNonStaticCtor.Print();
+            //var obj = new StaticNonStaticCtor();
+            //StaticNonStaticCtor.Print();
 
-            StaticNonStaticCtor.x = 7;
-            StaticNonStaticCtor.Print();
-            var obj = new StaticNonStaticCtor();
-            StaticNonStaticCtor.Print();
+            //VirtulAndOverride.Start();
+
+            /*
+            A obj = new FindOutput();
+            obj.Get();
+
+            B obj2 = new FindOutput();
+            obj2.Get();
+
+            FindOutput findOutput = new FindOutput();
+            findOutput.Get();
+            */
+
+            //BaseClassA a = new DerivedClassB();
 
             Console.ReadLine();
         }

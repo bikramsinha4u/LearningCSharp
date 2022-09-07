@@ -17,7 +17,7 @@ namespace LearningCSharp
 
     class DerivedClass: BaseClass
     {
-        public DerivedClass(): base()
+        public DerivedClass(): base(5)
         {
             Console.WriteLine("Ctor d1 is called.");
         }
